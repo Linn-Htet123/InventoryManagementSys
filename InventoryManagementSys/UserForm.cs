@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace InventoryManagementSys
 {
-    public partial class Form1 : Form
+    public partial class UserForm : Form
     {
-        public Form1()
+        public UserForm()
         {
             InitializeComponent();
+        }
+
+        private void dgv_user_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
